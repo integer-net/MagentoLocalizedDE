@@ -1,9 +1,9 @@
 <?php
 /**
- * German Localization package for Magento Localized (aka Magento DE)
+ * Localized Magento Editions
  *
  * @category   IntegerNet
- * @package    IntegerNet_MagentoLocalizedDE
+ * @package    IntegerNet_MagentoLocalized
  * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
  * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
  * @author     Andreas von Studnitz <avs@integer-net.de>

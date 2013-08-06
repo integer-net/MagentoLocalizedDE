@@ -1,4 +1,5 @@
 src/app/code/community/IntegerNet/MagentoLocalizedDE            app/code/community/IntegerNet/MagentoLocalizedDE
 src/app/design/frontend/base/default/template/magento_localized	app/design/frontend/base/default/template/magento_localized
 src/app/etc/modules/*                                           app/etc/modules/
-src/skin/install/default/default/images/*                       skin/install/default/default/images/
+src/skin/adminhtml/default/default/magento_localized/*          skin/adminhtml/default/default/magento_localized/
+src/skin/install/default/default/magento_localized/*            skin/install/default/default/magento_localized/

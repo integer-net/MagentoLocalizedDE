@@ -1,2 +1,3 @@
-src/app/code/community/IntegerNet/MagentoLocalizedDE		app/code/community/IntegerNet/MagentoLocalizedDE
-src/app/etc/modules/*						app/etc/modules/
+src/app/code/community/IntegerNet/MagentoLocalizedDE            app/code/community/IntegerNet/MagentoLocalizedDE
+src/app/design/frontend/base/default/template/magento_localized	app/design/frontend/base/default/template/magento_localized
+src/app/etc/modules/*                                           app/etc/modules/

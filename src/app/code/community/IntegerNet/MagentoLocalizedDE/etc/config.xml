@@ -128,6 +128,7 @@
         </payment>
 
         <magento_localized>
+            <logo_filename>images/logo-magento-de.png</logo_filename>
             <appfactory_url_de>http://de.nr-apps.com</appfactory_url_de>
             <appfactory_url_en>http://www.nr-apps.com</appfactory_url_en>
             <magentode_url_de>http://de.nr-apps.com/store/magento-de.html</magentode_url_de>

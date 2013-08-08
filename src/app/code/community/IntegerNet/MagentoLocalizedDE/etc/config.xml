@@ -139,16 +139,114 @@
             <feed_url_prefix>http://www.nr-apps.com/store/media/germanstoreconfig/</feed_url_prefix>
             <default_language>
                 <code>de</code>
-                <name>Deutsch</name>
+                <name>German</name>
             </default_language>
             <available_languages>
                 <en_US>English</en_US>
-                <!--<fr_FR>Français</fr_FR>-->
-                <!--<it_IT>Italiano</it_IT>-->
+                <!--<fr_FR>French</fr_FR>-->
+                <!--<it_IT>Italian</it_IT>-->
             </available_languages>
             <country>DE</country>
             <currency>EUR</currency>
             <timezone>Europe/Berlin</timezone>
+            <form_fields>
+                <general__imprint__vat_id>
+                    <type>text</type>
+                    <label>VAT-ID</label>
+                    <sorting>200</sorting>
+                    <optional>1</optional>
+                </general__imprint__vat_id>
+                <general__imprint__tax_number>
+                    <type>text</type>
+                    <label>Tax number</label>
+                    <sorting>210</sorting>
+                    <optional>1</optional>
+                </general__imprint__tax_number>
+                <general__imprint__court>
+                    <type>text</type>
+                    <label>Register court</label>
+                    <sorting>220</sorting>
+                    <optional>1</optional>
+                </general__imprint__court>
+                <general__imprint__register_number>
+                    <type>text</type>
+                    <label>Register number</label>
+                    <sorting>230</sorting>
+                    <optional>1</optional>
+                </general__imprint__register_number>
+                <general__imprint__financial_office>
+                    <type>text</type>
+                    <label>Financial office</label>
+                    <sorting>240</sorting>
+                    <optional>1</optional>
+                </general__imprint__financial_office>
+                <general__imprint__ceo>
+                    <type>text</type>
+                    <label>CEO</label>
+                    <sorting>250</sorting>
+                    <optional>1</optional>
+                </general__imprint__ceo>
+                <general__imprint__owner>
+                    <type>text</type>
+                    <label>Owner</label>
+                    <sorting>260</sorting>
+                    <optional>1</optional>
+                </general__imprint__owner>
+                <general__imprint__bank_account_owner>
+                    <type>text</type>
+                    <label>Account owner</label>
+                    <sorting>300</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_account_owner>
+                <general__imprint__bank_account>
+                    <type>text</type>
+                    <label>Account</label>
+                    <sorting>310</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_account>
+                <general__imprint__bank_code_number>
+                    <type>text</type>
+                    <label>Bank number</label>
+                    <sorting>320</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_code_number>
+                <general__imprint__bank_name>
+                    <type>text</type>
+                    <label>Bank name</label>
+                    <sorting>330</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_name>
+                <general__imprint__swift>
+                    <type>text</type>
+                    <label>SWIFT</label>
+                    <sorting>340</sorting>
+                    <optional>0</optional>
+                </general__imprint__swift>
+                <general__imprint__iban>
+                    <type>text</type>
+                    <label>IBAN</label>
+                    <sorting>350</sorting>
+                    <optional>0</optional>
+                </general__imprint__iban>
+            </form_fields>
+            <modules>
+                <firegento_pdf>
+                    <description>Ersetzt die Standard-PDFs für Rechnungen, Lieferscheine und Gutschriften durch bessere Versionen</description>
+                </firegento_pdf>
+                <dermodpro_baseprice>
+                    <name>Grundpreis-Modul</name>
+                    <description>Automatische Berechnung und Anzeige des Grundpreises für Artikel</description>
+                    <url>http://de.nr-apps.com/store/baseprice-extension-basic.html</url>
+                    <is_default>1</is_default>
+                </dermodpro_baseprice>
+                <aoe_managestores>
+                    <description>Ein deutlich intuitiveres Interface zum Verwalten von Websites, Stores und Store Views</description>
+                </aoe_managestores>
+                <aoe_jscsststamp>
+                    <description>Automatisches Versionieren von Javascript- und CSS-Dateien</description>
+                    <url>http://www.fabrizio-branca.de/automatisches-versionieren-von-javascript-und-css-dateien-in-magento.html</url>
+                </aoe_jscsststamp>
+            </modules>
         </magento_localized>
         <germansetup>
             <default_country>de</default_country>

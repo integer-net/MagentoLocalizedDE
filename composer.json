@@ -1,63 +1,9 @@
 {
-    "minimum-stability": "dev",
-    "require": {
-        "integer-net/magento-localized-de": "dev-master",
-
-        "riconeitzel/german-localepack-de-de": "dev-preview",
-        "connect20/locale_mage_community_ru_ru": "*",
-
-        "firegento/germansetup": "dev-master",
-        "firegento/pdf": "dev-master",
-        "fbrnc/aoe_managestores": "dev-master",
-        "fbrnc/aoe_jscsststamp": "dev-master",
-        "connect20/dermodpro_baseprice": "*",
-        "avstudnitz/scopehint": "dev-master",
-        "avstudnitz/admin-notification-advanced": "dev-master",
-        "tim-reynolds/magento-qconfig": "dev-master",
-        "integer-net/removecustomeraccountlinks": "dev-master",
-        "integer-net/autoshipping": "dev-master",
-        "ikonoshirt/customadminnotifications": "dev-master",
-
-        "connect20/cashondelivery": "*",
-        "itabs/invoice": "dev-master",
-        "therouv/debitpayment": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.firegento.com"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tim-reynolds/magento-qconfig.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/avstudnitz/AvS_ScopeHint.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/integer-net/Autoshipping.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
-        }
-    ],
-    "extra": {
-        "magento-root-dir": "../",
-        "skip-package-deployment": true
-    }
+   "name": "integer-net/magento-localized-de",
+   "type": "magento-module",
+   "description": "German Localization package for Magento Localized (aka Magento DE)",
+   "homepage": "https://github.com/integer-net/MagentoLocalizedDE",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
 }

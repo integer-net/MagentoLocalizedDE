@@ -22,4 +22,8 @@
         </steps>
     </wizard>
 
+    <install>
+        <eula_file>LICENSE_de.html</eula_file>
+    </install>
+    
 </config>

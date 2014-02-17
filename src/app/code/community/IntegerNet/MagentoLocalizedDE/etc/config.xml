@@ -133,7 +133,7 @@
             <module_url>http://de.nr-apps.com/store/magento-de.html</module_url>
             <logo_filename>magento_localized/logo.png</logo_filename>
             <htmldata_url>http://www.nr-apps.com/n/magento_de_de/wizard.json</htmldata_url> 
-            <tracking_url>http://www.nr-apps.com/store/germanstoreconfig/tracking</tracking_url>
+            <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
             <newsfeed_url>http://www.nr-apps.com/store/media/germanstoreconfig/feed.xml</newsfeed_url>
             <iframe_url_prefix>https://www.nr-apps.com/n/magento_de_</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>

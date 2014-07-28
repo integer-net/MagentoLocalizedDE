@@ -290,6 +290,9 @@
                     <description>Zahlungsart "Rechnung"</description>
                 </therouv_debitpayment>
             </modules>
+            <billsafe>
+                <is_available>1</is_available>
+            </billsafe>
         </magento_localized>
         <germansetup>
             <default_country>de</default_country>
